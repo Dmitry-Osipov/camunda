@@ -1,8 +1,15 @@
 spring.datasource.url: jdbc:h2:file:./camunda-h2-database
 
-camunda.bpm.admin-user:
-  id: demo
-  password: demo
+
+camunda:
+  bpm:
+    admin-user:
+      id: demo
+      password: demo
+#    default-serialization-format: application/json
 
 warriors:
   max: 100
+
+faker:
+  url: http://localhost:8090/

@@ -56,6 +56,26 @@
         </dependency>
 
         <dependency>
+            <groupId>org.camunda.connect</groupId>
+            <artifactId>camunda-connect-core</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.camunda.connect</groupId>
+            <artifactId>camunda-connect-connectors-all</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.camunda.spin</groupId>
+            <artifactId>camunda-spin-core</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.camunda.spin</groupId>
+            <artifactId>camunda-spin-dataformat-json-jackson</artifactId>
+        </dependency>
+
+        <dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
         </dependency>
@@ -65,6 +85,10 @@
             <artifactId>spring-boot-starter-jdbc</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
     </dependencies>
 
     <build>
